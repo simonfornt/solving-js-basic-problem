@@ -224,6 +224,92 @@ function sum(a, b) {
 
   
 
+// 15. Write a function to count the number of vowels in a string. The function should take a single argument, which is the string to search.
+
+/*
+        function countVowels(str) {
+        let vowels = /[aeiouAEIOU]/gi;
+        let same = str.match(vowels);
+        return same ? same.length : 0;
+    
+        }
+        console.log(countVowels("hello world")); // 3
+        console.log(countVowels("Javascript")); // 3
+        console.log(countVowels("rhythm")); // 0 (no vowels)
+*/
+  
+
+
+// 16. Write a function to get the first element of an array. The function should take a single argument, which is the array.
+
+/*
+function getFirstElement(arr) {
+
+    return   arr.at(0) ;
+  }
+  
+  console.log(getFirstElement([1, 2, 3])); // 1
+  console.log(getFirstElement(["a", "b", "c"])); // "a"
+  
+*/
+
+
+
+// 17.  Write a function to check if an array is empty. The function should take a single argument, which is the array.
+    
+/*
+    function isArrayEmpty(arr) {
+    return Array.isArray(arr) && arr.length === 0;
+    }
+  
+    console.log(isArrayEmpty([])); // true
+    console.log(isArrayEmpty([1, 2, 3])); // false
+*/
+
+
+
+
+
+// 18.  Write a function to return the factorial of a number. The function should take a single argument, which is the number.
+
+/*
+
+        function factorialize(num) {
+        if (num === 0 || num === 1) return 1;
+        return  num * factorialize(num -1);
+        }
+  
+        console.log(factorialize(5)); // 120
+        console.log(factorialize(7)); // 5040
+
+*/
+
+
+// 19.  Write a function to reverse a string. The function should take a single argument, which is the string to reverse.
+
+/*
+            function reverseString(str) {
+            return str.split('').reverse().join('');
+    
+            }
+  
+            console.log(reverseString("hello")); // "olleh"
+            console.log(reverseString("world")); // "dlrow"
+*/
+
+
+
+
+// 20.  Write a function to convert a string to lowercase. The function should take a single argument, which is the string to convert.
+
+function toLowerCase(str) {
+    return ;
+  }
+  
+  console.log(toLowerCase("HELLO WORLD")); // "hello world"
+  console.log(toLowerCase("JavaScript")); // "javascript"
+  
+
 
 
  
