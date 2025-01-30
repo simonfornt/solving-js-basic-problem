@@ -302,13 +302,60 @@ function getFirstElement(arr) {
 
 // 20.  Write a function to convert a string to lowercase. The function should take a single argument, which is the string to convert.
 
-function toLowerCase(str) {
-    return ;
+
+/*
+
+            function toLowerCase(str) {
+            return str.toLowerCase() ;
+            }
+  
+             console.log(toLowerCase("HELLO WORLD")); // "hello world"
+            console.log(toLowerCase("JavaScript")); // "javascript"
+
+*/
+
+
+
+
+// 21. Write a function to find the length of a string. The function should take a single argument, which is the string.
+
+/*
+
+                function stringLength(str) {
+                return str.length;
+                }
+  
+                console.log(stringLength("hello")); // 5
+                console.log(stringLength("world")); // 5
+*/
+
+
+
+//22. Write a function to merge two arrays. The function should take two arguments, which are the arrays to merge.
+
+/*
+
+            function mergeArrays(arr1, arr2) {
+            return arr1.concat(arr2) ;
+            }
+  
+            console.log(mergeArrays([1, 2, 3], [4, 5, 6])); // [1, 2, 3, 4, 5, 6]
+            console.log(mergeArrays(["a", "b"], ["c", "d"])); // ["a", "b", "c", "d"]
+*/
+
+
+
+// 23.   Write a function to get the last element of an array. The function should take a single argument, which is the array.
+
+function getLastElement(arr) {
+    return ...;
   }
   
-  console.log(toLowerCase("HELLO WORLD")); // "hello world"
-  console.log(toLowerCase("JavaScript")); // "javascript"
+  console.log(getLastElement([1, 2, 3])); // 3
+  console.log(getLastElement(["a", "b", "c"])); // "c"
   
+
+
 
 
 
